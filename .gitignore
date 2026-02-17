@@ -1,0 +1,52 @@
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.user
+*.suo
+
+# IDE - Rider/Visual Studio
+.idea/
+.vs/
+*.sln.DotSettings.user
+*.sln.docstates
+
+# Test coverage
+coverage/
+TestResults/
+*.coverage
+*.coverage.xml
+*.cache
+*.trx
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config
+appsettings.Development.json
+appsettings.Local.json
+
+# Temp files
+all_code.txt
+temp/
+*.tmp
+*.temp
+
+# User-specific files
+*.userosscache
+*.suo
+*.user
+*.userprefs
+
+# Build output
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
